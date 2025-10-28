@@ -46,6 +46,34 @@ const projects: Project[] = [
   
   {
     id: 2,
+    title: "Elegance Fashion",
+    description:
+      "Elegance Fashion is an elegant and dynamic web interface tailored for fashion brands and creative designers. The project delivers a seamless user experience for showcasing collections, design portfolios, and trend updates. With a focus on aesthetics and responsiveness, it blends modern UI elements with smooth transaction via M-pesa enabling customers and visitors to purchase effortlessly.",
+    media: {
+      type: "image",
+      src: "/projects/elegance.png", 
+    },
+    tags: ["React", "Flask", "Tailwind CSS", "M-pesa", "E-commerce"],
+    link: "https://fashion-design-fronted.vercel.app/", 
+    github: "", // Add GitHub link if available
+  },
+
+  {
+    id: 3,
+    title: "ViralCode Company Website",
+    description:
+      "ViralCode is a modern software company website built to showcase the brand’s services, expertise, and team culture. The platform emphasizes a sleek, responsive layout with smooth animations and strategic content placement to highlight the company’s core solutions in web development, cloud technology, and digital transformation. Designed for performance and clarity, it provides potential clients and partners with an engaging introduction to the ViralCode ecosystem.",
+    media: {
+      type: "image",
+      src: "/projects/ViralCode.png", 
+    },
+    tags: ["React", "Typescript", "Tailwind CSS", "Vercel", "Framer Motion"],
+    link: "https://viralcode-company-site.vercel.app/", 
+    github: "", // Add GitHub link if available
+  },
+
+  {
+    id: 4,
     title: "EcoMarket",
     description:
       "A Modern E-commerce Platform for Sustainable Shopping and Product Discovery. Browse, Shop, and Manage your Cart with a Seamless User Experience. Discover and Showcase Products in an Intuitive, Responsive Interface.",
@@ -57,8 +85,9 @@ const projects: Project[] = [
     link: "https://eco-market-website.vercel.app/",
     github: "",
   },
+
   {
-    id: 3,
+    id: 5,
     title: "Personal Portfolio",
     description:
         "My Personal Portfolio Website, showcasing my projects, skills, and experiences. Built with React, Next.js,TypeScript and Tailwind CSS, it provides a clean and modern interface for visitors to explore my work and get in touch with me.",
